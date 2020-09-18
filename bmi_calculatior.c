@@ -25,7 +25,7 @@ int main()
         printf("Weight is low, go and eat some food.");
     }else if(18.5 > bmi || bmi <= 24.9){
         printf("Normal weight, don't eat much");
-    }else if(24.9 > bmi || bmi < 34.9){
+    }else if(24.9 > bmi || bmi <= 34.9){
         printf("Over weight, eat less");
     }else{
         printf("Very very over weight, You are in danger.");
